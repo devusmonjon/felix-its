@@ -171,9 +171,3 @@ button:focus-visible {
         grid-template-columns: repeat(3, 1fr) !important;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .books-container {
-        grid-template-columns: repeat(4, 1fr) !important;
-    }
-}
