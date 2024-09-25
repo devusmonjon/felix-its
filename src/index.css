@@ -159,3 +159,21 @@ button:focus-visible {
     opacity: 1;
     pointer-events: all;
 }
+
+@media screen and (min-width: 768px) {
+    .books-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .books-container {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .books-container {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}

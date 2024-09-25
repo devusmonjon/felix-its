@@ -354,14 +354,16 @@ const Home = () => {
           </Fade>
         </Modal>
       </Box>
+      {/* @ts-ignore */}
       <Box
         sx={{
           width: "100%",
           mt: "36px",
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateColumns: "repeat(1, 1fr)",
           gap: "56px",
         }}
+        className={"books-container"}
       >
         {user?.products?.map((book: IBook) => (
           <Book key={book._id} book={book} />
